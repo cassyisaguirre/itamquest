@@ -222,7 +222,7 @@ var prompts = [
         $('.results').removeClass('hide');
         $('.results').addClass('show');
         
-        if(total == 15) {
+        if(total >= 15) {
             // document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
             // console.log(document.getElementById('intro-bar').style.width);
             // document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
